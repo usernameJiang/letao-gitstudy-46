@@ -1,3 +1,7 @@
+//            $ git push https://github.com/usernameJiang/letao-gitstudy-46.git master
+// 							密钥 C:\Users\Shinelon\.ssh
+
+
 $(function(){
 
 	var navLi = $('.navs li')
@@ -16,6 +20,9 @@ var APP = {
 	// 接口的基础配置
 	baseUrl:'http://fullstack.net.cn:3000'
 }
+
+
+$.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});
 
 
 
