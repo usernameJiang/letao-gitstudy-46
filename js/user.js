@@ -4,7 +4,10 @@ $.ajax({
 	async:false,
 	url:`${APP.baseUrl}/employee/checkRootLogin`,
 	success:function(respinse){
-		console.log(respinse)
+		// console.log(respinse);
+		if(respinse.error) {
+			location.href = 'login.html';
+		}
 	}
 });
 

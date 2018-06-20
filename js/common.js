@@ -1,4 +1,4 @@
-//            $ git push https://github.com/usernameJiang/letao-gitstudy-46.git master
+//            $ git push git@github.com:usernameJiang/letao-gitstudy-46.git master
 // 							密钥 C:\Users\Shinelon\.ssh
 
 
